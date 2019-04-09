@@ -1,0 +1,20 @@
+{
+    "name": "community-engineering/language-fil_ph",
+    "type": "magento2-language",
+    "description": "fil_PH language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+        ]
+    }
+}
